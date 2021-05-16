@@ -1,0 +1,37 @@
+.navbar-brand {
+    font-family: "Open Sans", sans-serif;
+    font-size: 32px;
+    color: $dark !important;
+    margin-left: 60px;
+}
+
+.navbar {
+    background-color: $navbar-dark-color;
+    text-transform: uppercase;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #c32c72;
+    font-size: 15px;
+    display: flex;
+    -webkit-box-align: end;
+
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+    color: black;
+}
+
+a.nav-link.active {
+    color: black;
+}
+
+.nav-item {
+    color: black;
+}
+
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url(https://pics.freeicons.io/uploads/icons/png/15211315791553239378-512.png);
+
+}
